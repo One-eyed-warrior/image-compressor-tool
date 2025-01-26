@@ -14,7 +14,7 @@ class ImageApp:
             widget.destroy()
 
         # Main screen widgets
-        label = tk.Label(self.root, text="Choose an Action", font=("Arial", 16))
+        label = tk.Label(self.root, text="What would you like to do?", font=("Arial", 16))
         label.pack(pady=20)
 
         compress_button = tk.Button(self.root, text="Compress Image", font=("Arial", 12), command=self.compression_screen)
